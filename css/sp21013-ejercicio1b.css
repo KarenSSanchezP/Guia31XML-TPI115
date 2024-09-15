@@ -1,0 +1,73 @@
+/* sp21013-ejercicio1b.css  SP21013 */
+
+/* Estilos para el contenedor principal */
+fichero {
+  background-color: #fafafa; 
+  padding: 20px;
+  border-radius: 12px;
+  font-family: 'Arial', sans-serif;  
+  color: #2c3e50;  
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para cada ficha */
+ficha {
+  background-color: #ffecb3; 
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  display: block;
+  font-size: 1.1em;
+  color: #34495e;  
+}
+
+/* Nombre y apellido */
+nombre {
+  color: #d32f2f;  
+  font-weight: bold;
+  display: inline;
+  font-size: 1.4em;
+}
+
+apellido {
+  color: #c2185b; 
+  display: inline;
+  font-size: 1.4em;
+}
+
+/* Dirección */
+direccion {
+  color: #455a64;  
+  font-size: 1.1em;
+  display: block;
+  margin-top: 8px;
+}
+
+/* Estilos para los campos adicionales */
+telefono, email, website, ocupacion, carrera, edad, carnet, dui, isss, afp, nit {
+  display: block;
+  color: #5d4037;  
+  font-size: 1em;
+  margin-top: 6px;
+}
+
+/* Estilos para mostrar los atributos */
+ficha::before {
+  content: "ID: " attr(id) " - Fecha de Ingreso: " attr(fechaingreso);
+  display: block;
+  color: #616161;  
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+website {
+  color: #1976d2; 
+  text-decoration: underline;
+}
+
+/* Estilo especial para campos como DUI, ISSS, AFP, y NIT */
+dui, isss, afp, nit {
+  font-style: italic;
+  color: #7b1fa2; 
+}

@@ -1,0 +1,42 @@
+{
+	"pais": {
+		"monedas_en_circulacion": {
+			"moneda": [
+				{
+					"_tipo": "física",
+					"_simbolo": "USD",
+					"__text": "Dólar estadounidense"
+				},
+				{
+					"_tipo": "cripto",
+					"_simbolo": "BTC",
+					"__text": "Bitcoin"
+				}
+			]
+		},
+		"idiomas": {
+			"oficial": "Español",
+			"autóctono": "Náhuat",
+			"segundo_idioma": "Inglés"
+		},
+		"departamento": [
+			{
+				"cabecera": "San Salvador",
+				"habitantes": "1,700,000",
+				"altura": "545 MSNM",
+				"_id": "1",
+				"_nombre": "San Salvador"
+			},
+			{
+				"cabecera": "Santa Ana",
+				"habitantes": "500,000",
+				"altura": "665 MSNM",
+				"_id": "2",
+				"_nombre": "Santa Ana"
+			}
+		],
+		"_nombre": "El Salvador",
+		"_codigo_area": "503",
+		"_area_territorial": "21041 km2"
+	}
+}

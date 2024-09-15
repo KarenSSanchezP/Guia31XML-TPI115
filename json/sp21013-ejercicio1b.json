@@ -1,0 +1,45 @@
+{
+	"fichero": {
+		"ficha": [
+			{
+				"nombre": "Antonio",
+				"apellido": "Barbero",
+				"direccion": "Calle de Los Andes, 45",
+				"_id": "1",
+				"_fechaingreso": "1/11/2012"
+			},
+			{
+				"nombre": "Karen Stefany",
+				"apellido": "Sánchez Pocasangre",
+				"carnet": "SP21013",
+				"direccion": "Apopa, San Salvador",
+				"telefono": "79912817",
+				"email": "kssp@gmail.com",
+				"website": "https://www.anykar.com",
+				"ocupacion": "Estudiante",
+				"carrera": "Ingeniería de Sistemas Informáticos",
+				"edad": "21",
+				"_id": "2",
+				"_fechaingreso": "1/01/2024"
+			},
+			{
+				"nombre": "Karen Stefany",
+				"apellido": "Sánchez Pocasangre",
+				"carnet": "SP21013",
+				"direccion": "Apopa, San Salvador",
+				"telefono": "79912817",
+				"email": "kssp21@gmail.com",
+				"website": "https://www.anykar.com",
+				"ocupacion": "Estudiante",
+				"carrera": "Ingeniería de Sistemas Informáticos",
+				"edad": "21",
+				"dui": "06436725-2",
+				"isss": "No Asignado",
+				"afp": "No Asignado",
+				"nit": "0406-260902-101-2",
+				"_id": "3",
+				"_fechaingreso": "1/01/2024"
+			}
+		]
+	}
+}

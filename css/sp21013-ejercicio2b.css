@@ -1,0 +1,87 @@
+/* sp21013-ejercicio2b.css  SP21013 */
+
+/* Estilos para el contenedor principal del país */
+pais {
+  background-color: #e8f5e9;  
+  padding: 30px;
+  border-radius: 15px;
+  font-family: 'Arial', sans-serif;
+  color: #004d40;  
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Mostrar los atributos del país */
+pais::before {
+  content: "Nombre: " attr(nombre) " | Código de área: " attr(codigo_area) " | Área territorial: " attr(area_territorial);
+  display: block;
+  font-size: 1.2em;
+  color: #1b5e20;  
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Estilos para monedas en circulación */
+monedas_en_circulacion {
+  display: block;
+  margin-bottom: 25px;
+}
+
+moneda {
+  display: block;
+  padding: 10px;
+  background-color: #ffab91;  
+  color: #6d4c41;  
+  border-radius: 10px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+moneda::before {
+  content: "Tipo de moneda: " attr(tipo) " - Símbolo: " attr(simbolo);
+  display: block;
+  color: #4e342e; 
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+/* Estilos para los idiomas */
+idiomas {
+  display: block;
+  padding: 20px;
+  background-color: #fff9c4;  
+  color: #f57f17;  
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+idioma {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+/* Estilos para los departamentos */
+departamento {
+  display: block;
+  padding: 20px;
+  background-color: #d1c4e9; 
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+departamento::before {
+  content: "Departamento: " attr(nombre) " - ID: " attr(id);
+  display: block;
+  color: #512da8; 
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+cabecera, habitantes, altura {
+  display: block;
+  font-size: 1.1em;
+  color: #311b92; 
+  margin-bottom: 10px;
+}
