@@ -86,3 +86,23 @@ cabecera, habitantes, altura {
   margin-bottom: 8px;
 }
 
+a {
+  text-decoration: none; 
+  color: #007BFF; 
+  padding: 10px 15px; 
+  border: 2px solid #007BFF; 
+  border-radius: 5px; 
+  background-color: #F0F8FF; 
+  font-family: Arial, sans-serif; 
+  font-size: 14px; 
+  display: inline-block; 
+}
+
+a:hover {
+  background-color: #007BFF; 
+  color: #FFFFFF; 
+}
+
+a:focus {
+  outline: 2px solid #0056b3; 
+}
